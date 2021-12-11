@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+  font-family: Open Sans;
+  text-align: center;
+}
+
+#header-img {
+  height: 50px;
+  padding: 0px 10px 0px 20px;
+}
+
+#why {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.transparent {
+  background-color: transparent;
+  color: white;
+  border-style: none;
+  font-size: 16px;
+  margin: 10px 0 10px 0;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  width: 100vw;
+  background-color: rgb(16 19 25);
+  align-items: center;
+    color: white;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav-link-container {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.nav-link:hover {
+  background-color: rgb(26 35 48);
+}
+
+main {
+  margin: 120px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+  background-color: rgb(15 20 25);
+  color: white;
+  text-align: center;
+   font-size: 12px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 60%;
+}
+
+#features {
+  margin: 30px 0 30px 0;
+  padding: 20px 0 30px 0;
+  background-color: rgb(228 233 233);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cell {
+  padding: 20px 0 20px 0;
+}
+
+#video {
+  padding-top: 20px;
+}
+
+.process-grid {
+  width: 80%;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 125px 125px 125px;
+  grid-gap: 20px 20px;
+}
+
+.title-grid {
+  font-weight: bold;
+  font-size: 36px;
+  width: 100%;
+  height: 100%;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-grid {
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+
+.colored-background {
+    background-color: rgb(228 233 233);
+}
+
+#email {
+  font-size: 18px;
+  text-align: center;
+}
+
+#submit {
+  margin-top: 20px;
+    font-size: 18px;
+}
+
+.grid-image {
+  max-width: 10vw;
+}
+
+iframe {
+  max-width: 80vw;
+}
+
+@media (max-width: 600px) {
+.content-grid {
+  font-size: 4vw;
+}
+  .title-grid {
+  font-size: 6vw;
+}
+  
+  .transparent {
+  font-size: 2.7vw;
+}
+  }
