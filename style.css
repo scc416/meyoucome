@@ -5,12 +5,12 @@
   text-align: center;
 }
 
-#header-img {
+header nav img {
   height: 50px;
   padding: 0px 10px 0px 20px;
 }
 
-#why {
+.why {
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ h1 {
   margin: 10px 0 10px 0;
 }
 
-#nav-bar {
+header nav {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -92,7 +92,7 @@ footer {
   width: 60%;
 }
 
-#features {
+.features {
   margin: 30px 0 30px 0;
   padding: 20px 0 30px 0;
   background-color: rgb(228 233 233);
@@ -106,7 +106,7 @@ footer {
   padding: 20px 0 20px 0;
 }
 
-#video {
+iframe {
   padding-top: 20px;
 }
 
@@ -142,12 +142,12 @@ footer {
   background-color: rgb(228 233 233);
 }
 
-#email {
+.email {
   font-size: 18px;
   text-align: center;
 }
 
-#submit {
+.submit {
   margin-top: 20px;
   font-size: 18px;
 }
