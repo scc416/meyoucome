@@ -6,10 +6,7 @@
     <meta id="viewport" name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="https://unpkg.com/chota" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic" />
   </head>
   <body>
     <header>
@@ -31,23 +28,28 @@
       <video oncontextmenu="return false;" muted autoplay loop>
         <source src="./promo-video.mp4" type="video/mp4" />
       </video>
-
-      <div id="price">
-        Subscribe to our mailing list
-        <form>
-          <legend>
-            <label for="email">
-              <input
-                type="email"
-                class="email"
-                name="email"
-                placeholder="Enter your email address"
-                required
-              />
-            </label>
-          </legend>
-          <input class="submit" type="submit" />
-        </form>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="price">
+              Subscribe to our mailing list
+              <form>
+                <legend>
+                  <label for="email">
+                    <input
+                      type="email"
+                      class="email"
+                      name="email"
+                      placeholder="Enter your email address"
+                      required
+                    />
+                  </label>
+                </legend>
+                <input class="submit" type="submit" />
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>
