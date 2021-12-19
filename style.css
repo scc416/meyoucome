@@ -41,17 +41,23 @@ div video {
 }
 
 .video-text div {
-  width: 50%;
+  width: 75%;
   text-align: center;
   color: #FFF;
-  padding: 0.5em;
-  border-radius: 2em;
+  font-size: 1.1em;
 }
 
-h2 {
+.video-text .title {
   font-family: "Yeseva One";
+  font-size: 2.5em;
 }
 
 .video-container {
   position: relative;
 }
+/* 
+@media (min-width:768px) {
+  .video-text div {
+    width: 576px;
+  }
+} */
