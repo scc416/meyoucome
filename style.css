@@ -5,10 +5,6 @@
   text-align: center;
 }
 
-header nav img {
-  height: 50px;
-  padding: 0px 10px 0px 20px;
-}
 
 #why {
   width: 70%;
@@ -31,40 +27,13 @@ h1 {
 }
 
 header nav {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  display: flex;
-  width: 100vw;
   background-color: #A7AfA8;
-  align-items: center;
-  color: white;
-  z-index: 1;
-  flex-wrap: wrap;
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  padding: 10px 10px 10px 10px;
-}
-
-.nav-link-container {
-  text-align: right;
-  position: absolute;
-  right: 10px;
-  flex-wrap: wrap;
-  width: 50%;
 }
 
 .title {
   display: flex;
   align-items: center;
   width: 250px;
-}
-
-.nav-link:hover {
-  background-color: rgb(26 35 48);
 }
 
 main {
