@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Yeseva+One&display=swap');
 
 header nav {
   background-color: #a7afa8;
@@ -20,7 +20,7 @@ main {
 }
 
 body {
-  font-family: "Josefin Sans";
+  font-family: "Lato";
 }
 
 @media (max-width: 768px) {
