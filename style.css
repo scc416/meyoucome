@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Yeseva+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Yeseva+One&display=swap");
 
 header nav {
   background-color: #a7afa8;
@@ -11,7 +11,8 @@ header nav {
   font-family: "Yeseva One";
 }
 
-body header, main {
+body header,
+main {
   font-family: "Lato";
 }
 
@@ -20,13 +21,33 @@ main {
   top: 80px;
 }
 
-div {
-  max-width: 100vw;
-  max-height: 100vh;
-}
-
 div video {
   width: 100vw;
   min-width: 100vw;
   opacity: 0.9;
+}
+
+.video-title {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.video-title p {
+  width: 50%;
+}
+
+.title {
+  color: white;
+  opacity: 0.8;
+  font-family: "Yeseva One";
+}
+
+.video-container {
+  position: relative;
 }
