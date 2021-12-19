@@ -1,7 +1,26 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yeseva+One&display=swap');
 
 header nav {
   background-color: #a7afa8;
+  position: fixed;
+  width: 100vw;
+}
+
+.nav-left {
+  font-family: "Yeseva One";
+}
+
+.nav {
+  padding: 2% 1%;
+}
+
+main {
+  top: 100px;
+  position: relative;
+}
+
+body {
+  font-family: "Josefin Sans";
 }
 
 @media (max-width: 768px) {
