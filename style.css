@@ -36,10 +36,14 @@ main {
   top: 90px;
 }
 
-div video {
+div video.title {
   width: 100vw;
   min-width: 100vw;
   opacity: 0.8;
+}
+
+video.works {
+  width: 100%;
 }
 
 .video-text {
