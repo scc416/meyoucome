@@ -5,6 +5,10 @@ header {
   position: fixed;
   width: 100vw;
   z-index: 2;
+  color: white;
+}
+header nav.nav div a, span {
+  color: white;
 }
 
 .brand {
@@ -44,7 +48,7 @@ div video {
   width: 85%;
   text-align: center;
   color: #FFF;
-  font-size: 1.1em;
+  font-size: 3vw;
 }
 
 .video-text .title {
@@ -60,4 +64,8 @@ div video {
   main {
     top: 50px;
   }
+
+  /* .video-text div {
+    font-size: 1.5em;
+  } */
 }
