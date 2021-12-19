@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Yeseva+One&display=swap');
 
-header {
+header nav {
   background-color: #a7afa8;
   position: fixed;
   width: 100vw;
-  padding: 2% 1%;
+  padding: 4% 1%;
 }
 
-.nav-left {
+.brand {
   font-family: "Yeseva One";
-}
-
-main {
-  top: 100px;
-  position: relative;
 }
 
 body header, main {
