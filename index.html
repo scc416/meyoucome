@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width" />
 
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic" />
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -15,20 +15,17 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#" class="brand">
-          <h1>
+      <nav class="nav">
+        <div class="nav-left">
+          <a href="#" class="brand">
             <span><i class="fas fa-spinner"></i>&nbsp;Youmecome</span>
-          </h1>
-        </a>
+          </a>
+        </div>
 
-        <input id="bmenub" type="checkbox" class="show" />
-        <label for="bmenub" class="burger pseudo button">menu</label>
-
-        <div class="menu">
-          <a href="#features" class="pseudo button icon-picture">Features</a>
-          <a href="#work" class="pseudo button icon-picture">How It Works?</a>
-          <a href="#price" class="pseudo button icon-picture">Pricing</a>
+        <div class="nav-right">
+          <a href="#features">Features</a>
+          <a href="#work">How It Works?</a>
+          <a href="#price">Pricing</a>
         </div>
       </nav>
     </header>
