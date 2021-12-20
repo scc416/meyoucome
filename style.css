@@ -22,6 +22,11 @@ span {
   color: white;
 }
 
+.feature-grid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
 .brand {
   font-family: "Bebas Neue";
   letter-spacing: 0.15em;
