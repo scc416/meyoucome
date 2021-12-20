@@ -24,7 +24,24 @@ span {
 
 .feature-grid {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 1fr 2fr;
+  width: 50%;
+}
+
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-grid div img {
+  max-height: 100%;
+  max-width: 100%
+}
+
+.feature-grid div.img {
+  max-height: 15vh;
+  max-width: 15vw;
 }
 
 .brand {
