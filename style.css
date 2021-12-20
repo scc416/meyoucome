@@ -24,8 +24,9 @@ span {
 .feature-grid {
   padding: 1em;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  width: 75%;
+
+  grid-template-columns: 1fr;
+  width: 100%;
   grid-gap: 1em;
 }
 
@@ -95,7 +96,7 @@ video.works {
 }
 
 h2 {
-  padding-top: 100px; 
+  padding-top: 100px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }
@@ -107,5 +108,12 @@ h2 {
 
   h2 {
     padding-top: 60px;
+  }
+}
+
+@media (min-width: 600px) {
+  .feature-grid {
+    width: 600px;
+    grid-template-columns: auto 2fr;
   }
 }
