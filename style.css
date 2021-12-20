@@ -95,7 +95,7 @@ video.works {
 }
 
 h2 {
-  padding-top: 100px;
+  padding-top: 60px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }
@@ -103,10 +103,6 @@ h2 {
 @media (min-width: 480px) {
   main {
     top: 60px;
-  }
-
-  h2 {
-    padding-top: 60px;
   }
 }
 
