@@ -93,13 +93,18 @@ video.works {
 }
 
 h2 {
-  padding-top: 60px;
+  padding-top: 20px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }
 
 footer {
+  padding-top: 0.5em;
   background-color: #d6c7c9;
+}
+
+footer a {
+  padding: 0 0.4em;
 }
 
 input.button {
@@ -111,10 +116,19 @@ input.button {
   main {
     top: 60px;
   }
+
+  h2 {
+    padding-top: 60px;
+  }
 }
 
 @media (min-width: 600px) {
   .container div.sections {
     width: 600px;
+  }
+
+  footer div {
+    display: flex;
+    justify-content: space-around;
   }
 }
