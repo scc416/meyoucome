@@ -24,9 +24,7 @@ span {
 .feature-grid {
   padding: 1em;
   display: grid;
-
-  grid-template-columns: 1fr;
-  width: 100%;
+  grid-template-columns: auto auto;
   grid-gap: 1em;
 }
 
@@ -55,6 +53,7 @@ main {
 main {
   position: relative;
   top: 100px;
+  width: 100%;
 }
 
 div video.title {
@@ -112,8 +111,7 @@ h2 {
 }
 
 @media (min-width: 600px) {
-  .feature-grid {
+  .container div.sections {
     width: 600px;
-    grid-template-columns: auto 2fr;
   }
 }
