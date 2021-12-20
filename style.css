@@ -2,7 +2,6 @@
 
 header {
   background-color: #a7afa8;
-  /* position: fixed; */
   width: 100vw;
   z-index: 2;
   color: #fff;
@@ -23,9 +22,11 @@ span {
 }
 
 .feature-grid {
+  padding: 1em;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  width: 50%;
+  width: 75%;
+  grid-gap: 1em;
 }
 
 .grid-container {
@@ -36,12 +37,13 @@ span {
 
 .feature-grid div img {
   max-height: 100%;
-  max-width: 100%
+  max-width: 100%;
 }
 
 .feature-grid div.img {
   max-height: 15vh;
   max-width: 15vw;
+  position: relative;
 }
 
 .brand {
