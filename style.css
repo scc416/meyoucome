@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&display=swap");
 
 header {
   background-color: #a7afa8;
@@ -12,7 +12,7 @@ a.button {
   margin-top: 1em;
   background-color: #a7afa8;
   color: #fff;
-  font-size: 2.5vw;
+  font-size: 2vw;
   padding: 2vw;
 }
 
@@ -22,12 +22,13 @@ span {
 }
 
 .brand {
-  font-family: "Yeseva One";
+  font-family: "Bebas Neue";
+  letter-spacing: 0.15em;
 }
 
 body header,
 main {
-  font-family: "Lato";
+  font-family: "Raleway";
   color: #454545;
 }
 
@@ -61,16 +62,22 @@ video.works {
 .video-text div {
   width: 85%;
   color: #fff;
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 .video-text .title {
-  font-family: "Yeseva One";
+  font-family: "Bebas Neue";
+  letter-spacing: 0.15em;
   font-size: 4vw;
 }
 
 .video-container {
   position: relative;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 @media (min-width: 480px) {
