@@ -6,6 +6,7 @@ header {
   width: 100vw;
   z-index: 2;
   color: #fff;
+  padding: 8px 0;
 }
 
 a.button {
@@ -34,7 +35,7 @@ main {
 
 main {
   position: relative;
-  top: 90px;
+  top: 100px;
 }
 
 div video.title {
@@ -76,12 +77,17 @@ video.works {
 }
 
 h2 {
+  padding-top: 100px; 
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }
 
 @media (min-width: 480px) {
   main {
-    top: 50px;
+    top: 60px;
+  }
+
+  h2 {
+    padding-top: 60px;
   }
 }
