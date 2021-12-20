@@ -10,7 +10,7 @@ header {
 
 a.button {
   margin-top: 1em;
-  background-color: #a7afa8;
+  background-color: #6f7382;
   color: #fff;
   font-size: 2vw;
   padding: 2vw;
@@ -48,6 +48,10 @@ body header,
 main {
   font-family: "Raleway";
   color: #454545;
+}
+
+#price img {
+  width: 50%;
 }
 
 main {
@@ -92,6 +96,10 @@ h2 {
   padding-top: 60px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+}
+
+footer {
+  background-color: #d6c7c9;
 }
 
 @media (min-width: 480px) {
