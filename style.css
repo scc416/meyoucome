@@ -36,14 +36,8 @@ span {
 }
 
 .feature-grid div img {
-  max-height: 100%;
-  max-width: 100%;
-}
-
-.feature-grid div.img {
   max-height: 15vh;
   max-width: 15vw;
-  position: relative;
 }
 
 .brand {
