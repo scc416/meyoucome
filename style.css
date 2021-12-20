@@ -102,6 +102,11 @@ footer {
   background-color: #d6c7c9;
 }
 
+input.button {
+  background-color: #d5dade;
+  color: #454545;
+}
+
 @media (min-width: 480px) {
   main {
     top: 60px;
