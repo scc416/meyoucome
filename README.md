@@ -8,7 +8,7 @@ A product landing page. This web page is one of my project for [Responsive Web D
 - [Final Product](#final-product)
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
-- [Resources](#resources)
+- [Credit](#credit)
 
 ## Live demo
 
@@ -42,9 +42,10 @@ https://scc416.github.io/meyoucome/
 1. Clone or download this repository onto your local device.
 2. Open `index.html` with browser.
 
-## Resources
+## Credit
 
 - The actual product can be found [here](https://mudagostini.stores.jp/items/5eeb40a6561e175764cf1bc8).
 - The web page of the inventor: [Marina Fujiwara](https://marinafujiwara.persona.co/).
 - Article of the product on [OurWindsor.ca](https://www.ourwindsor.ca/opinion-story/10039859-emma-teitel-covid-19-is-not-the-only-ailment-in-this-pandemic-some-of-us-have-a-nasty-case-of-zoom-fatigue/).
 - Article of the product on [Japan Trends](https://www.japantrends.com/video-call-emergency-escape-gadget-zoom/).
+- favicons from [font-awesome](https://fontawesome.com/v5.15/icons/spinner), modified to animated gif by myself.
