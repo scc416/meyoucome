@@ -36,6 +36,7 @@ https://scc416.github.io/meyoucome/
 ## Dependencies
 
 - [chota](https://jenil.github.io/chota/): CSS library
+- [Font Awesome](https://fontawesome.com/): for icons
 
 ## Getting Started
 
